@@ -1,0 +1,19 @@
+{
+    "name": "dedan/mybizna-wp",
+    "authors": [
+        {
+            "name": "Dedan",
+            "email": "dedanirungu@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.7",
+        "laravel/framework": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mybizna\\Classes\\": "Classes/",
+            "Mybizna\\Controllers\\": "Controllers/"
+        }
+    }
+}
